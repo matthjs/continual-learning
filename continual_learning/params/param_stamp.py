@@ -1,6 +1,6 @@
-from data.load import get_context_set
-from models import define_models as define
-from utils import checkattr
+from continual_learning.data.load import get_context_set
+from continual_learning.models import define_models as define
+from continual_learning.utils import checkattr
 
 
 def visdom_name(args):

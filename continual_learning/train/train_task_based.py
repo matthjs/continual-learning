@@ -5,9 +5,9 @@ from torch.utils.data import ConcatDataset
 import numpy as np
 import tqdm
 import copy
-from utils import get_data_loader,checkattr
-from data.manipulate import SubDataset, MemorySetDataset
-from models.cl.continual_learner import ContinualLearner
+from continual_learning.utils import get_data_loader,checkattr
+from continual_learning.data.manipulate import SubDataset, MemorySetDataset
+from continual_learning.models.cl.continual_learner import ContinualLearner
 
 
 def train_cl(model, train_datasets, iters=2000, batch_size=32, baseline='none',

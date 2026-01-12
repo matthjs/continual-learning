@@ -2,7 +2,7 @@ import torch
 import tqdm
 import copy
 from utils import checkattr
-from models.cl.continual_learner import ContinualLearner
+from continual_learning.models.cl.continual_learner import ContinualLearner
 
 
 def train_on_stream(model, datastream, iters=2000, loss_cbs=list(), eval_cbs=list()):

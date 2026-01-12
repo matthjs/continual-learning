@@ -7,8 +7,8 @@ import copy
 import tqdm
 from torch import nn
 from torch.utils.data import DataLoader,TensorDataset
-from models.fc import excitability_modules as em
-from data.available import AVAILABLE_TRANSFORMS
+from continual_learning.models.fc import excitability_modules as em
+from continual_learning.data.available import AVAILABLE_TRANSFORMS
 
 ##-------------------------------------------------------------------------------------------------------------------##
 
