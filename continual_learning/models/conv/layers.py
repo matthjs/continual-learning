@@ -1,5 +1,5 @@
 import torch.nn as nn
-from models.utils import modules
+from continual_learning.models.utils import modules
 
 
 #-----------------------------------------------------------------------------------------------------------#

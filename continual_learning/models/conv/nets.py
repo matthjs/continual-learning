@@ -1,7 +1,7 @@
 from torch import nn
 import numpy as np
-import models.conv.layers as conv_layers
-from models.utils import modules
+import continual_learning.models.conv.layers as conv_layers
+from continual_learning.models.utils import modules
 
 
 class ConvLayers(nn.Module):

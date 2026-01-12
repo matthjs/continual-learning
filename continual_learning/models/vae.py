@@ -3,11 +3,11 @@ import math
 import torch
 from torch import nn
 from torch.nn import functional as F
-from models.fc.layers import fc_layer,fc_layer_split
-from models.fc.nets import MLP
-from models.conv.nets import ConvLayers,DeconvLayers
-from models.cl.continual_learner import ContinualLearner
-from models.utils import loss_functions as lf, modules
+from continual_learning.models.fc.layers import fc_layer,fc_layer_split
+from continual_learning.models.fc.nets import MLP
+from continual_learning.models.conv.nets import ConvLayers,DeconvLayers
+from continual_learning.models.cl.continual_learner import ContinualLearner
+from continual_learning.models.utils import loss_functions as lf, modules
 
 
 class VAE(ContinualLearner):

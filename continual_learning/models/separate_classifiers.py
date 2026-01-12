@@ -1,5 +1,5 @@
 from torch import nn
-from models.classifier import Classifier
+from continual_learning.models.classifier import Classifier
 
 
 class SeparateClassifiers(nn.Module):

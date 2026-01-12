@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 from torch import nn
-from models.vae import VAE
+from continual_learning.models.vae import VAE
 
 
 

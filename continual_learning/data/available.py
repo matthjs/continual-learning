@@ -1,5 +1,5 @@
 from torchvision import datasets, transforms
-from data.manipulate import UnNormalize
+from continual_learning.data.manipulate import UnNormalize
 
 
 # specify available data-sets.

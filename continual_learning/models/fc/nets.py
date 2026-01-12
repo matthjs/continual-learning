@@ -1,7 +1,7 @@
 from torch import nn
 import numpy as np
-from models.utils.modules import Identity
-from models.fc.layers import fc_layer, fc_layer_fixed_gates
+from continual_learning.models.utils.modules import Identity
+from continual_learning.models.fc.layers import fc_layer, fc_layer_fixed_gates
 
 
 class MLP(nn.Module):

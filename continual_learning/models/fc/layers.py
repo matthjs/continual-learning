@@ -1,8 +1,8 @@
 import numpy as np
 import torch
 from torch import nn
-from models.utils import modules
-from models.fc import excitability_modules as em
+from continual_learning.models.utils import modules
+from continual_learning.models.fc import excitability_modules as em
 
 
 class fc_layer(nn.Module):

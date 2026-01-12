@@ -2,9 +2,9 @@ import tqdm
 import torch
 from torch import optim
 from torch.nn import functional as F
-from models.utils import modules
-from models.conv.nets import ConvLayers
-from models.fc.layers import fc_layer
+from continual_learning.models.utils import modules
+from continual_learning.models.conv.nets import ConvLayers
+from continual_learning.models.fc.layers import fc_layer
 
 
 class FeatureExtractor(torch.nn.Module):

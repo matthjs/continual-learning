@@ -1,12 +1,12 @@
 import torch
 from torch.nn import functional as F
-from models.fc.layers import fc_layer
-from models.fc.nets import MLP
-from models.conv.nets import ConvLayers
-from models.cl.memory_buffer import MemoryBuffer
-from models.cl.continual_learner import ContinualLearner
-from models.utils import loss_functions as lf, modules
-from models.utils.ncl import additive_nearest_kf
+from continual_learning.models.fc.layers import fc_layer
+from continual_learning.models.fc.nets import MLP
+from continual_learning.models.conv.nets import ConvLayers
+from continual_learning.models.cl.memory_buffer import MemoryBuffer
+from continual_learning.models.cl.continual_learner import ContinualLearner
+from continual_learning.models.utils import loss_functions as lf, modules
+from continual_learning.models.utils.ncl import additive_nearest_kf
 
 
 class Classifier(ContinualLearner, MemoryBuffer):

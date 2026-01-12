@@ -1,8 +1,8 @@
 import numpy as np
 import torch
-from visual import visual_plt
-from visual import visual_visdom
-from utils import get_data_loader,checkattr
+from continual_learning.visual import visual_plt
+from continual_learning.visual import visual_visdom
+from continual_learning.utils import get_data_loader,checkattr
 
 
 ####--------------------------------------------------------------------------------------------------------------####

@@ -6,7 +6,7 @@ from torch.optim.optimizer import Optimizer
 from torch.nn.utils import parameters_to_vector, vector_to_parameters
 import torch.nn as nn
 import torch.nn.functional as F
-from models.fc import excitability_modules as em
+from continual_learning.models.fc import excitability_modules as em
 
 
 ## This code has been based upon: https://github.com/team-approx-bayes/fromp (accessed 8 July 2021)

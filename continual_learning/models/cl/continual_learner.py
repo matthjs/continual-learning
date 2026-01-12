@@ -4,9 +4,9 @@ import torch
 from torch import nn
 from torch.distributions import Categorical
 from torch.nn import functional as F
-from utils import get_data_loader
-from models import fc
-from models.utils.ncl import additive_nearest_kf
+from continual_learning.utils import get_data_loader
+from continual_learning.models import fc
+from continual_learning.models.utils.ncl import additive_nearest_kf
 
 
 class ContinualLearner(nn.Module, metaclass=abc.ABCMeta):

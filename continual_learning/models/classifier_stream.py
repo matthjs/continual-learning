@@ -1,12 +1,12 @@
 import numpy as np
 import torch
 from torch.nn import functional as F
-from models.fc.layers import fc_layer, fc_multihead_layer
-from models.fc.nets import MLP, MLP_gates
-from models.conv.nets import ConvLayers
-from models.cl.memory_buffer_stream import MemoryBuffer
-from models.cl.continual_learner import ContinualLearner
-from models.utils import loss_functions as lf, modules
+from continual_learning.models.fc.layers import fc_layer, fc_multihead_layer
+from continual_learning.models.fc.nets import MLP, MLP_gates
+from continual_learning.models.conv.nets import ConvLayers
+from continual_learning.models.cl.memory_buffer_stream import MemoryBuffer
+from continual_learning.models.cl.continual_learner import ContinualLearner
+from continual_learning.models.utils import loss_functions as lf, modules
 
 
 class Classifier(ContinualLearner, MemoryBuffer):

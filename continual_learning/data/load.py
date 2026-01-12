@@ -2,8 +2,8 @@ import copy
 import numpy as np
 from torchvision import transforms
 from torch.utils.data import ConcatDataset
-from data.manipulate import permutate_image_pixels, SubDataset, TransformedDataset
-from data.available import AVAILABLE_DATASETS, AVAILABLE_TRANSFORMS, DATASET_CONFIGS
+from continual_learning.data.manipulate import permutate_image_pixels, SubDataset, TransformedDataset
+from continual_learning.data.available import AVAILABLE_DATASETS, AVAILABLE_TRANSFORMS, DATASET_CONFIGS
 
 
 def get_dataset(name, type='train', download=True, capacity=None, permutation=None, dir='./store/datasets',
