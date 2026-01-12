@@ -18,6 +18,3 @@ dependencies = [
     "jupyterlab",
     "ipywidgets"
 ]
-packages = [
-    { include = "continual_learning" }
-]
